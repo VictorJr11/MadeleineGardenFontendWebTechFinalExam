@@ -1,0 +1,26 @@
+:root {
+    --primary-green: #2ecc71;
+    --dark-green: #27ae60;
+  }
+  
+  body {
+    background-color: #f0f2f5;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-green) !important;
+    border-color: var(--primary-green) !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--dark-green) !important;
+    border-color: var(--dark-green) !important;
+  }
+  
+  .text-primary {
+    color: var(--primary-green) !important;
+  }
+  
+  .login-container {
+    background-color: #f0f2f5;
+  }
